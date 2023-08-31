@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xie duo, dfff, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.37.0.0
+Toolchain Path:  D:\Program filess2\keil5\ARM\ARMCCv506u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+E:\Cubemx\SmartHome0_to_1\BareMetal_01\MDK-ARM\BareMetal_01.uvprojx
+Project File Date:  08/31/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Program filess2\keil5\ARM\ARMCCv506u7\Bin'
+Build target 'SmartHome_Template'
+compiling main.c...
+..\ModuleDrivers\driver_led.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\ModuleDrivers\driver_i2c.h(96): warning:  #1-D: last line of file ends without a newline
+  #endif /* __DRIVER_I2C_H */
+..\ModuleDrivers\driver_oled.h(345): warning:  #1-D: last line of file ends without a newline
+  #endif /* __DRIVER_OLED_H */
+../Src/main.c(29): warning:  #188-D: enumerated type mixed with another type
+  	   if(0 ==  K1_Value() )  BLUE_ON( ); 
+../Src/main.c(31): warning:  #188-D: enumerated type mixed with another type
+   		 	if(0 ==  K2_Value() )  BLUE_OFF( ); 
+../Src/main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=5056 RO-data=380 RW-data=16 ZI-data=1776  
+FromELF: creating hex file...
+"SmartHome_Template\SmartHome_Template.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_SmartHome_Template
+  D:/Program filess2/keil5/packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/Program filess2/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

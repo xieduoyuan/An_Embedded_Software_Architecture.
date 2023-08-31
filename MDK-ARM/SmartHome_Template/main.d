@@ -1,0 +1,34 @@
+smarthome_template\main.o: ../Src/main.c
+smarthome_template\main.o: ../Inc/main.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+smarthome_template\main.o: ../Inc/stm32f1xx_hal_conf.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+smarthome_template\main.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+smarthome_template\main.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+smarthome_template\main.o: ../Drivers/CMSIS/Include/core_cm3.h
+smarthome_template\main.o: D:\Program filess2\keil5\ARM\ARMCCv506u7\Bin\..\include\stdint.h
+smarthome_template\main.o: ../Drivers/CMSIS/Include/cmsis_version.h
+smarthome_template\main.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+smarthome_template\main.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+smarthome_template\main.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+smarthome_template\main.o: D:\Program filess2\keil5\ARM\ARMCCv506u7\Bin\..\include\stddef.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+smarthome_template\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+smarthome_template\main.o: ../Inc/usart.h
+smarthome_template\main.o: ../Inc/gpio.h
+smarthome_template\main.o: ..\ModuleDrivers\driver_key.h
+smarthome_template\main.o: ..\ModuleDrivers\driver_led.h
+smarthome_template\main.o: ..\ModuleDrivers\driver_i2c.h
+smarthome_template\main.o: ..\ModuleDrivers\driver_oled.h
